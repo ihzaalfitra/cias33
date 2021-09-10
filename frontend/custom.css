@@ -1,0 +1,48 @@
+.active{
+  color: rgb(229, 51, 44);;
+}
+.product:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.product{
+  transition: 0.3s;
+}
+.galeri{
+  transition: 0.3s;
+}
+.galeri:hover{
+  transform: scale(1.5);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.max-wh-50{
+  max-width: 50px;
+  max-height: 50px;
+}
+logo{
+  background-image: url('ihzaa_64x64.png');
+  background-size: contain;
+  background-position:bottom;
+  background-repeat: no-repeat;
+  width: 15px;
+  display: inline-block;
+  height: 15px;
+}
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}

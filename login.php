@@ -2,16 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Log In | HelloTeach</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.css" rel="stylesheet">
     <!-- <link href="custom.css" rel="stylesheet"> -->
-    <style media="screen">
-      .styled{
-        font-family:"Mistral";
-      }
-    </style>
+    <style media="screen">.styled{font-family:"Mistral";}</style>
   </head>
   <body class="h-screen overflow flex h-auto items-center justify-center" style="background: #FBFAF5;">
     <div class="bg-green-100 text-green-800 py-6 h-screen xl:w-1/4 lg:w-1/3 md:w-1/3 sm:w-1/2 w-80 fixed z-50" id="mobileMenu">
@@ -23,7 +19,7 @@
         </div>
         <div class="py-1">&nbsp;</div>
         <div class="w-2/3 mx-auto">
-          <form action="login-process.php" method="post">
+          <form action="index.php" method="post">
             <div class="mb-4">
               <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
                 <span>Email</span>
@@ -57,7 +53,7 @@
               </button>
             </div>
           </form>
-          Tidak punya akun? <a href="#" class="font-bold text-green-800">Buat akun</a>
+          Tidak punya akun? <a href="register.php" class="font-bold text-green-800">Buat akun</a>
         </div>
 
   	</div>
